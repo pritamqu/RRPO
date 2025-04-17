@@ -1,5 +1,12 @@
 # Self-Alignment of Large Video Language Models with Refined Regularized Preference Optimization
 
+<a href='https://arxiv.org/abs/2504.12083'><img src='https://img.shields.io/badge/arXiv-paper-red'></a> 
+<a href='https://pritamqu.github.io/RRPO/'><img src='https://img.shields.io/badge/project-RRPO-blue'></a> 
+<a href='https://huggingface.co/datasets/pritamqu/self-alignment'><img src='https://img.shields.io/badge/huggingface-datasets-green'></a> 
+<a href='https://huggingface.co/collections/pritamqu/rrpo-67fbc8c048b298a5fdfb167b'><img src='https://img.shields.io/badge/model-checkpoints-yellow'></a> 
+</a><a href='https://github.com/pritamqu/RRPO'><img src='https://img.shields.io/badge/github-repository-purple'></a> 
+
+
 Authors: [Pritam Sarkar](https://pritamsarkar.com) and [Ali Etemad](https://www.aiimlab.com/ali-etemad)
 
 This repository provides the official implementation of **[RRPO](https://arxiv.org/abs/2504.12083)**.
