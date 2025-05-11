@@ -17,7 +17,7 @@ This repository provides the official implementation of **[RRPO](https://arxiv.o
 
 Clone the repository and navigate to the RRPO directory:
 
-```sh
+```
 git clone https://github.com/pritamqu/RRPO
 cd RRPO
 ```
@@ -147,8 +147,8 @@ If you find this work useful, please consider citing our paper:
 
 ```
 @article{sarkar2025rrpo,
-  title={Self-Alignment of Large Video Language Models with Refined Regularized Preference Optimization},
-  author={Your Name et al.},
+  title={Self-alignment of Large Video Language Models with Refined Regularized Preference Optimization},
+  author={Sarkar, Pritam and Etemad, Ali},
   journal={arXiv preprint arXiv:2504.12083},
   year={2025}
 }
