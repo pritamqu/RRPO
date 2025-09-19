@@ -6,6 +6,9 @@
 <a href='https://huggingface.co/collections/pritamqu/rrpo-67fbc8c048b298a5fdfb167b'><img src='https://img.shields.io/badge/model-checkpoints-yellow'></a> 
 </a><a href='https://github.com/pritamqu/RRPO'><img src='https://img.shields.io/badge/github-repository-purple'></a> 
 
+<h3 align="center">
+:star: :star: NeurIPS 2025 :star: :star:
+</h3>
 
 Authors: [Pritam Sarkar](https://pritamsarkar.com) and [Ali Etemad](https://www.aiimlab.com/ali-etemad)
 
