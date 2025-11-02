@@ -1,22 +1,15 @@
 <!DOCTYPE html>
-
-<script src="http://www.google.com/jsapi" type="text/javascript"></script>
-<script type="text/javascript">
-    google.load("jquery", "1.3.2");
-</script>
-
-<!-- 
-    quick html converter
-    https://htmled.it/
- -->
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RRPO</title>
     <meta property="og:title"
         content="Self-Alignment of Large Video Language Models with Refined Regularized Preference Optimization" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script type="text/javascript" id="MathJax-script" async
@@ -122,10 +115,10 @@
     <table border="0" style="border-collapse: collapse; width: 100%;">
     <tbody>
     <tr>
-    <td style="text-align: center;"><img src="./assets/self-alignment.png" width="100%" height="auto" /></td>
+    <td style="text-align: center;"><img src="./assets/self-alignment.png" style="width: 100%; height: auto; max-width: 100%;" /></td>
     </tr>
     <!-- <tr> -->
-    <td style="width: 33.33%; height: 5px; vertical-align:top; text-align: center">An overview of our self-alignment framework.</td>
+    <td style="width: 100%; height: 5px; vertical-align:top; text-align: center">An overview of our self-alignment framework.</td>
     <!-- </tr> -->
     </tbody>
     </table>
@@ -134,12 +127,12 @@
     <table border="0" style="border-collapse: collapse; width: 100%;">
       <tbody>
       <tr>
-      <td style="width: 33.33%;"><img src="./assets/perturb.png" width="100%" height="100%" /></td>
-      <td style="width: 33.33%;"><img src="./assets/data.png" width="100%" height="100%" /></td>
+      <td style="width: 50%;"><img src="./assets/perturb.png" style="width: 100%; height: auto; max-width: 100%;" /></td>
+      <td style="width: 50%;"><img src="./assets/data.png" style="width: 100%; height: auto; max-width: 100%;" /></td>
       </tr>
       <tr>
-      <td style="width: 33.33%; height: 5px; vertical-align:top; text-align: center">An example of perturbed video.</td>
-      <td style="width: 33.33%; height: 5px; vertical-align:top; text-align: center">A few training samples.</td>
+      <td style="width: 50%; height: 5px; vertical-align:top; text-align: center">An example of perturbed video.</td>
+      <td style="width: 50%; height: 5px; vertical-align:top; text-align: center">A few training samples.</td>
       </tr>
       </tbody>
       </table>
@@ -306,20 +299,18 @@
         </tr>
       </tbody>
     </table>
-    <br> <br>
-    <table border="0" style="border-collapse: collapse; width: 100%;">
+      <br> <br>
+      <table border="0" style="border-collapse: collapse; width: 100%;">
       <tbody>
       <tr>
-      <td style="text-align: center;"><img src="./assets/postalignment_divergence.png" width="40%" height="auto" /></td>
+      <td style="text-align: center;"><img src="./assets/postalignment_divergence.png" style="width: 100%; max-width: 500px; height: auto;" /></td>
       </tr>
       <!-- <tr> -->
-      <td style="width: 33.33%; height: 5px; vertical-align:top; text-align: center">Performance relative to model divergence. RRPO exhibits the best performance-
+      <td style="width: 100%; height: 5px; vertical-align:top; text-align: center">Performance relative to model divergence. RRPO exhibits the best performance-
         divergence trade-off.</td>
       <!-- </tr> -->
       </tbody>
-      </table>
-
-      <br> <br>
+      </table>      <br> <br>
       <table border="1" style="border-collapse: collapse; width: 100%; font-size: 14px; text-align: center;">
       
         <caption style="caption-side: top; font-weight: bold; padding: 8px;">
