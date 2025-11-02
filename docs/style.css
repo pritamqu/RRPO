@@ -7,28 +7,66 @@ body {
     width: 1000px;
     max-width: 95%;
     padding: 0 10px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 28px;
 }
 
 /* Mobile responsiveness */
 @media screen and (max-width: 768px) {
     body {
-        font-size: 16px;
+        font-size: 14px;
         width: 100%;
-        padding: 0 15px;
+        padding: 0 10px;
+    }
+    
+    h1 {
+        font-size: 22px;
     }
     
     table {
-        font-size: 12px;
+        font-size: 10px !important;
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    table caption {
+        font-size: 12px !important;
+    }
+    
+    table td, table th {
+        padding: 4px !important;
+        white-space: nowrap;
     }
     
     img {
         max-width: 100%;
         height: auto !important;
+        width: 100% !important;
     }
-}
-
-h1 {
-    font-weight: 300;
+    
+    embed {
+        width: 100% !important;
+        height: 400px !important;
+    }
+    
+    textarea {
+        font-size: 10px !important;
+    }
+    
+    /* Make navigation links stack on mobile */
+    table[style*="border-spacing"] {
+        border-spacing: 10px 10px !important;
+    }
+    
+    table[style*="border-spacing"] td {
+        display: inline-block;
+        margin: 5px;
+    }
 }
 
 a:link,
